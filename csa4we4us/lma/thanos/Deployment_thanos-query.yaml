@@ -63,6 +63,7 @@ spec:
             - --query.replica-label=replica
             - --store=prometheus-operated.lma.svc.cluster.local:10901
             - --store=a15c73c938ec44400a221fcedb470981-1241416942.ap-northeast-2.elb.amazonaws.com:10901
+            - --store=a705d99f4456c48cc8a2573a8117eda2-1604896643.ap-northeast-2.elb.amazonaws.com:10901
           ports:
             - name: http
               containerPort: 10902
